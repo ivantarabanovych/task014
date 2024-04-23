@@ -1,0 +1,25 @@
+body {
+    background-image: url('./images/rain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    padding: 200px;
+}
+
+.picture {
+    background-image: url('./images/blpearl.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px lightblue,
+                inset 20px 20px 300px 20px rgba(0, 0, 0, 0.87);
+}
