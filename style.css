@@ -63,3 +63,32 @@ body {
     color: white;
     border: 2px solid rgb(241, 118, 4);
 }
+.sprite{
+    max-width: 1000px;
+    margin: auto;
+}
+.mdias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.media{
+    width: 256px;
+    height: 256px;
+    background-image: url('./images/sprite.png');
+    background-repeat: no-repeat;
+    
+}
+
+.icon1{
+    background-position: 0px 0px;
+}
+
+.icon2{
+    background-position: -0px -256px;
+}
+
+.icon3{
+    background-position: -0px -512px;
+}
+
