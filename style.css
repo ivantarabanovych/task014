@@ -19,6 +19,7 @@ body {
     width: 400px;
    display: flex;
    flex-direction: column;
+   background-attachment:fixed, scroll fixed;
 }
 
 .picture {
